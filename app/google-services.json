@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686157345222",
+    "project_id": "habits-heroes",
+    "storage_bucket": "habits-heroes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686157345222:android:eaf7c5fe976bbbddb6c2c7",
+        "android_client_info": {
+          "package_name": "com.sp.madproposal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq2nnN3YaCtWHYNdUCcWbl7fo1jq_0t5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

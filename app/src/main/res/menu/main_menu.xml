@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_habits"
+            android:icon="@drawable/habits"
+            android:title="Habits"/>
+
+        <item
+            android:id="@+id/nav_rewards"
+            android:icon="@drawable/rewards"
+            android:title="Rewards"/>
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/history"
+            android:title="History"/>
+
+        <item
+            android:id="@+id/nav_attendance"
+            android:icon="@drawable/attendance"
+            android:title="Attendance"/>
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/account"
+            android:title="Account"/>
+
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/calll"
+            android:title="Emergency Call"/>
+
+        <item
+            android:id="@+id/nav_sms"
+            android:icon="@drawable/smss"
+            android:title="SMS"/>
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/locationn"
+            android:title="Location"/>
+
+        <item
+            android:id="@+id/nav_appusage"
+            android:icon="@drawable/time_ic"
+            android:title="Screen Time"/>
+
+    </group>
+
+</menu>

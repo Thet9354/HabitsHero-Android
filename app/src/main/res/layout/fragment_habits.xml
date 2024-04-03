@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.Habits">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For Your Heroic Habits"
+                android:textColor="@color/borange"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+
+            <!--Monday-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monday:"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_monHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1) Finish your homework by 6pm"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_monHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_monHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2) Read five pages of english storybook"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_monHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_monHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3) Play outdoor basketball for 30 mins"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_monHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <!--Tuesday-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tuesday:"
+                    android:textColor="@color/borange"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_tuesHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1) Finish your homework by 6pm"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_tuesHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_tuesHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2) Practice five maths revision questions"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_tuesHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_tuesHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3) Play outdoor basketball for 30 mins"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_tuesHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <!--Wednesday-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday:"
+                    android:textColor="@color/yellow"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_wedHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1) Finish your homework by 6pm"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_wedHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_wedHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2) Read five pages of scientific magazine"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_wedHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_wedHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3) Play outdoor basketball for 30 mins"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_wedHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <!--Thursday-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thursday:"
+                    android:textColor="@color/lblue"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_thursHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1) Finish your homework by 6pm"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_thursHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_thursHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2) Read five pages of english book"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_thursHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_thursHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3) Play outdoor basketball for 30 mins"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_thursHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <!--Friday-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Friday:"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_friHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1) Finish your homework by 6pm"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_friHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_friHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2) Read five pages of english book"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_friHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_friHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3) Play outdoor basketball for 30 mins"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_friHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <!--Saturday-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Saturday:"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_satHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1) Finish your homework by 6pm"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_satHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_satHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2) Read five pages of english book"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_satHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_satHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3) Play outdoor basketball for 30 mins"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_satHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <!--Sunday-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sunday:"
+                    android:textColor="@color/red"
+                    android:textSize="20sp"
+                    android:textStyle="bold|italic"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_sunHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1) Finish your homework by 6pm"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_sunHabit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_sunHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2) Read five pages of english book"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_sunHabit2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtView_sunHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3) Play outdoor basketball for 30 mins"
+                    android:textColor="@color/blue"
+                    android:layout_centerVertical="true"
+                    android:textStyle="bold"/>
+
+                <CheckBox
+                    android:id="@+id/cb_sunHabit3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Completed"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_logIt"
+                    android:layout_width="@dimen/_200sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/blue"
+                    android:padding="10dp"
+                    android:text="Log It!"
+                    android:textStyle="italic"
+                    android:clickable="false"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    app:cornerRadius="30dp" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/fab_aiBot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Assistance"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="20dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/chat_ic"
+                    android:textAllCaps="false"/>
+
+            </RelativeLayout>
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

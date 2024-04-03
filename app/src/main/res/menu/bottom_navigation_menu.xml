@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navbar_habits"
+        android:icon="@drawable/habits"
+        android:title="Habits" />
+
+    <item
+        android:id="@+id/navbar_rewards"
+        android:icon="@drawable/rewards"
+        android:title="Rewards" />
+
+    <item
+        android:id="@+id/navbar_history"
+        android:icon="@drawable/history"
+        android:title="History"/>
+
+    <item
+        android:id="@+id/navbar_attendance"
+        android:icon="@drawable/attendance"
+        android:title="Attendance" />
+
+    <item
+        android:id="@+id/navbar_account"
+        android:icon="@drawable/account"
+        android:title="Account" />
+
+
+</menu>

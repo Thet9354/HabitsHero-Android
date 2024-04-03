@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Onboarding.SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:src="@drawable/splash2"
+                tools:src="@drawable/logoheader" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textAllCaps="true"
+                android:textColor="@color/blue"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="-50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parents' Particular"
+                android:textColor="@color/green"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name: "
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTxt_fatherName"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:textColor="@color/blue"
+                    android:hint="Enter father's name"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Number: "
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTxt_fatherNumber"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:digits="0123456789"
+                    android:inputType="phone"
+                    android:textColor="@color/blue"
+                    android:maxLength="9"
+                    android:textSize="18sp"
+                    android:hint="Enter father's contact number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name: "
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTxt_motherName"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:hint="Enter mother's name"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Number: "
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTxt_motherNumber"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="18sp"
+                    android:digits="0123456789"
+                    android:inputType="phone"
+                    android:textColor="@color/blue"
+                    android:maxLength="9"
+                    android:hint="Enter mother's contact number"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Child' Particular"
+                android:textColor="@color/blue"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name: "
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTxt_childName"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:hint="Enter child's name"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Number: "
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTxt_childNumber"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textSize="18sp"
+                    android:digits="0123456789"
+                    android:textColor="@color/blue"
+                    android:inputType="phone"
+                    android:maxLength="9"
+                    android:hint="Enter child's contact number"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Account"
+                android:textColor="@color/borange"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="30dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email: "
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTxt_email"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/blue"
+                    android:hint="Enter email address"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password: "
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"/>
+
+                <EditText
+                    android:id="@+id/editTxt_password"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/blue"
+                    android:hint="Set up password"/>
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/cb_verification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I verify that all information registered had been affirmed by all involved parties"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp" />
+
+            <Button
+                android:id="@+id/btn_signUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/blue"
+                android:padding="10dp"
+                android:text="Sign Up"
+                android:textStyle="italic"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                app:cornerRadius="30dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

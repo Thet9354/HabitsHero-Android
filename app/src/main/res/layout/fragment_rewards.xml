@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.Rewards">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rewardz"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtView_rewardInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Just a simple habit-building task = 1 ✨"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"/>
+
+        <ImageView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:src="@drawable/stars"
+            android:layout_toRightOf="@+id/txtView_rewardInstructions"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/txtView_totalPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=": 99"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:layout_marginEnd="3dp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:background="@color/lblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Enjoy some snacks!"
+            android:layout_centerVertical="true"
+            android:textColor="@color/blue"/>
+
+        <ImageView
+            android:id="@+id/imgView_snacks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/snacks"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10✨"
+            android:textColor="@color/blue"
+            android:layout_toRightOf="@+id/imgView_snacks"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_reward1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Redeem"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:background="@color/lblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Watch a movie!"
+            android:layout_centerVertical="true"
+            android:textColor="@color/blue"/>
+
+        <ImageView
+            android:id="@+id/imgView_movie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/movies"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20✨"
+            android:textColor="@color/blue"
+            android:layout_toRightOf="@+id/imgView_movie"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="22dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_reward2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Redeem"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:background="@color/lblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. New cool clothes"
+            android:layout_centerVertical="true"
+            android:textColor="@color/blue"/>
+
+        <ImageView
+            android:id="@+id/imgView_clothes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/clothes"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10✨"
+            android:textColor="@color/blue"
+            android:layout_toRightOf="@+id/imgView_clothes"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_reward3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Redeem"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:background="@color/lblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. New toy!"
+            android:layout_centerVertical="true"
+            android:textColor="@color/blue"/>
+
+        <ImageView
+            android:id="@+id/imgView_toy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/toys"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10✨"
+            android:textColor="@color/blue"
+            android:layout_toRightOf="@+id/imgView_toy"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="40dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_reward4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Redeem"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:background="@color/lblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Universal Studio trip!"
+            android:layout_centerVertical="true"
+            android:textColor="@color/blue"/>
+
+        <ImageView
+            android:id="@+id/imgView_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uss"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10✨"
+            android:textColor="@color/blue"
+            android:layout_toRightOf="@+id/imgView_trip"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="25dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_reward5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Redeem"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:background="@color/lblue">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Overseas trip!"
+            android:layout_centerVertical="true"
+            android:textColor="@color/blue"/>
+
+        <ImageView
+            android:id="@+id/imgView_overseas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/overseas"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10✨"
+            android:textColor="@color/blue"
+            android:layout_toRightOf="@+id/imgView_overseas"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="15dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_reward6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="Redeem"
+            android:layout_marginEnd="10dp"/>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_redeem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/blue"
+        android:padding="10dp"
+        android:text="Redeem selected rewards"
+        android:layout_gravity="center_vertical"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        app:cornerRadius="30dp" />
+
+</LinearLayout>
